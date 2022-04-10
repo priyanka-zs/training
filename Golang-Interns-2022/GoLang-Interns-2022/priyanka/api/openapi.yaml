@@ -1,0 +1,360 @@
+openapi: 3.0.0
+info:
+  title: CarDealership
+  description: This is a sample cardealership
+  version: 1.0.0
+  contact:
+    name: CarDealership
+    email: xyz123@gmail.com
+paths:
+  /car{id}:
+    get:
+      description: Get details
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+      responses:
+        '200':
+          description: ok
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  properties:
+                    id:
+                      type: string
+                      example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+                    name:
+                      type: string
+                      example: "bmw 3"
+                    year:
+                      type: integer
+                      example: 1998
+                    brand:
+                      type: string
+                      example: "bmw"
+                    fuel:
+                      type: string
+                      example: "petrol"
+                    engine:
+                      properties:
+                        noOfCylinders:
+                          type: integer
+                          example: 10
+                        displacement :
+                          type: integer
+                          example: 10
+                        range:
+                          type: integer
+                          example: 0
+        '400':
+          description: invalid id
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: status bad request
+        '500':
+          description: error from server
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: internal server error
+    delete:
+      description: delete details
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+      responses:
+        '204':
+          description: delete details
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: row deleted successfully
+        '400':
+          description: invalid id
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: status bad request
+        '500':
+          description: error from server
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: internal server error   
+    put:
+      description: update details
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+      requestBody:
+        description: enter car details
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                name:
+                  type: string
+                  example: ferrarif5
+                year:
+                  type: integer
+                  example: 1998
+                brand:
+                  type: string
+                  example: ferrari
+                fuel:
+                  type: string
+                  example: petrol
+                engine:
+                   properties:
+                    noOfCylinders:
+                      type: integer
+                      example: 10
+                    displacement :
+                      type: integer
+                      example: 10
+                    range:
+                      type: integer
+                      example: 0
+      responses:
+        '200':
+          description: data updates
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  properties:
+                    id:
+                      type: string
+                      example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+                    name:
+                      type: string
+                      example: "ferrarif5"
+                    year:
+                      type: integer
+                      example: 1998
+                    brand:
+                      type: string
+                      example: "ferrari"
+                    fuel:
+                      type: string
+                      example: "petrol"
+                    engine:
+                      properties:
+                        noOfCylinders:
+                          type: integer
+                          example: 10
+                        displacement :
+                          type: integer
+                          example: 10
+                        range:
+                          type: integer
+                          example: 0
+        '400':
+          description: missing values
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: status bad request
+        '500':
+          description: error from server
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: internal server error            
+
+
+  /car:
+    post:
+      description: enter details
+      requestBody:
+        description: enter car details
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                name:
+                  type: string
+                  example: ferrarif5
+                year:
+                  type: integer
+                  example: 1998
+                brand:
+                  type: string
+                  example: ferrari
+                fuel:
+                  type: string
+                  example: petrol
+                engine:
+                   properties:
+                    noOfCylinders:
+                      type: integer
+                      example: 10
+                    displacement :
+                      type: integer
+                      example: 10
+                    range:
+                      type: integer
+                      example: 0
+      responses:
+        '201':
+          description: status created
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  properties:
+                    id:
+                      type: string
+                      example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+                    name:
+                      type: string
+                      example: "ferrarif5"
+                    year:
+                      type: integer
+                      example: 1998
+                    brand:
+                      type: string
+                      example: "ferrari"
+                    fuel:
+                      type: string
+                      example: "petrol"
+                    engine:
+                      properties:
+                        noOfCylinders:
+                          type: integer
+                          example: 10
+                        displacement :
+                          type: integer
+                          example: 10
+                        range:
+                          type: integer
+                          example: 0
+        '400':
+          description: missing values
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: status bad request
+        '500':
+          description: error from server
+          content:
+            application/json:
+              schema: 
+                type: string
+                example: internal server error
+    get:
+      description: Get details
+      parameters:
+        - in: query
+          name: brand
+          required: true
+          schema:
+            type: string
+            example: bmw
+        - in: query
+          name: isEngine
+          schema:
+            type: string
+            example: true
+      responses:
+         '200':
+          description: ok
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  properties:
+                    id:
+                      type: string
+                      example: "bbfbe7ee-7a21-47ca-85e2-6eb498514d9b"
+                    name:
+                      type: string
+                      example: "bmw 3"
+                    year:
+                      type: integer
+                      example: 1998
+                    brand:
+                      type: string
+                      example: "bmw"
+                    fuel:
+                      type: string
+                      example: "petrol"
+                    engine:
+                      properties:
+                        noOfCylinders:
+                          type: integer
+                          example: 10
+                        displacement :
+                          type: integer
+                          example: 10
+                        range:
+                          type: integer
+                          example: 0
+         '400':
+           description: missing parametrs
+           content:
+            application/json:
+              schema: 
+                type: string
+                example: status bad request
+         '500':
+            description: error from server
+            content:
+              application/json:
+                schema: 
+                  type: string
+                  example: internal server error
+                 
+        
+          
+  
+                
+    
+        
+      
+        
+        
+          
+      
+        
+         
+            
+                           
+                    
+                   
+                   
+                  
+        
+      
+
+
+
+

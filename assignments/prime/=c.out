@@ -1,0 +1,9 @@
+mode: set
+assignments/prime/prime.go:4.31,5.28 1 1
+assignments/prime/prime.go:10.2,10.15 1 1
+assignments/prime/prime.go:5.28,6.15 1 1
+assignments/prime/prime.go:6.15,8.4 1 1
+assignments/prime/prime.go:14.25,16.25 2 1
+assignments/prime/prime.go:22.2,22.15 1 1
+assignments/prime/prime.go:16.25,18.18 2 1
+assignments/prime/prime.go:18.18,20.4 1 1

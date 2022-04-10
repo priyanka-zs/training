@@ -1,0 +1,4 @@
+mode: set
+assessment1/handler/handler.go:9.27,14.16 4 1
+assessment1/handler/handler.go:18.2,18.12 1 1
+assessment1/handler/handler.go:14.16,16.3 1 0

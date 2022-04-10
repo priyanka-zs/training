@@ -1,0 +1,26 @@
+mode: set
+petstore/handlers/handler.go:17.29,19.2 1 1
+petstore/handlers/handler.go:22.69,28.16 4 1
+petstore/handlers/handler.go:34.2,37.16 3 1
+petstore/handlers/handler.go:42.2,43.16 2 1
+petstore/handlers/handler.go:48.2,49.16 2 1
+petstore/handlers/handler.go:54.2,57.16 3 1
+petstore/handlers/handler.go:28.16,32.3 3 0
+petstore/handlers/handler.go:37.16,40.3 2 1
+petstore/handlers/handler.go:43.16,46.3 2 1
+petstore/handlers/handler.go:49.16,52.3 2 0
+petstore/handlers/handler.go:57.16,59.3 1 0
+petstore/handlers/handler.go:63.66,72.16 6 1
+petstore/handlers/handler.go:77.2,78.16 2 1
+petstore/handlers/handler.go:83.2,84.16 2 1
+petstore/handlers/handler.go:89.2,92.16 3 1
+petstore/handlers/handler.go:72.16,75.3 2 1
+petstore/handlers/handler.go:78.16,81.3 2 1
+petstore/handlers/handler.go:84.16,87.3 2 0
+petstore/handlers/handler.go:92.16,94.3 1 0
+petstore/handlers/mockinterfaces.go:28.59,32.2 3 1
+petstore/handlers/mockinterfaces.go:35.57,37.2 1 1
+petstore/handlers/mockinterfaces.go:40.93,46.2 5 1
+petstore/handlers/mockinterfaces.go:49.85,52.2 2 1
+petstore/handlers/mockinterfaces.go:55.92,61.2 5 1
+petstore/handlers/mockinterfaces.go:64.83,67.2 2 1

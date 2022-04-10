@@ -1,0 +1,11 @@
+mode: set
+petstore/stores/stores.go:16.24,18.2 1 1
+petstore/stores/stores.go:21.75,26.16 3 1
+petstore/stores/stores.go:30.2,30.17 1 1
+petstore/stores/stores.go:26.16,28.3 1 1
+petstore/stores/stores.go:34.76,41.16 4 1
+petstore/stores/stores.go:45.2,45.17 1 1
+petstore/stores/stores.go:41.16,43.3 1 1
+petstore/stores/stores.go:48.61,50.16 2 1
+petstore/stores/stores.go:53.2,53.12 1 1
+petstore/stores/stores.go:50.16,52.3 1 1

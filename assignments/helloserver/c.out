@@ -1,0 +1,8 @@
+mode: set
+assignments/helloserver/ex.go:8.54,10.51 2 1
+assignments/helloserver/ex.go:14.2,16.32 2 1
+assignments/helloserver/ex.go:10.51,13.3 2 1
+assignments/helloserver/ex.go:16.32,20.3 2 1
+assignments/helloserver/ex.go:20.8,20.23 1 1
+assignments/helloserver/ex.go:20.23,24.3 2 1
+assignments/helloserver/ex.go:24.8,26.3 1 1

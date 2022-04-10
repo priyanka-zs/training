@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="533e21f9-b9dc-4e78-92f9-bc971e365f9e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/petstore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/c.out" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/c.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/handler_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/handler_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/c.out" beforeDir="false" afterPath="$PROJECT_DIR$/services/c.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/mockinterface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/service_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/service_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores/c.out" beforeDir="false" afterPath="$PROJECT_DIR$/stores/c.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/stores/store_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stores/stores.go" beforeDir="false" afterPath="$PROJECT_DIR$/stores/stores.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27BvVpQgESbOIo9CvKR4Tm0M2Ft" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager" selected="Go Test.Test_PostUnMarErr in petstore/handlers">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestService_Delete in petstore/services" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$/services" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="petstore/services" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestService_Delete\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Delete in petstore/stores" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$/stores" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="petstore/stores" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_Delete\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_DeleteErr in petstore/stores" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$/stores" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="petstore/stores" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_DeleteErr\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_PostStoreErr in petstore/services" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$/services" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="petstore/services" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_PostStoreErr\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_PostUnMarErr in petstore/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$/handlers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="petstore/handlers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_PostUnMarErr\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="petstore" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_PostUnMarErr in petstore/handlers" />
+        <item itemvalue="Go Test.TestService_Delete in petstore/services" />
+        <item itemvalue="Go Test.Test_Delete in petstore/stores" />
+        <item itemvalue="Go Test.Test_DeleteErr in petstore/stores" />
+        <item itemvalue="Go Test.Test_PostStoreErr in petstore/services" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/petstore$store_test_go.out" NAME="store_test.go Coverage Results" MODIFIED="1649074758835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/petstore$handler_test_go.out" NAME="handler_test.go Coverage Results" MODIFIED="1649074654901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/petstore$service_test_go.out" NAME="service_test.go Coverage Results" MODIFIED="1649074720035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
